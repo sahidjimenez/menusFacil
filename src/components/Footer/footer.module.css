@@ -1,0 +1,41 @@
+.root {
+
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    color: #89B74B;
+    font-size: 16px;
+    composes: font-bold from global;
+    margin-top: auto;
+}
+
+.footerTop {
+    display: grid;
+    gap: 6px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #89B74B;
+    font-size: 14px;
+    composes: font-bold from global;
+    composes: p-2 from global;
+    
+}
+
+.footerBottom {
+    display: grid;
+    gap: 6px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 14px;
+    composes: font-bold from global;
+    composes: p-2 from global;
+    background-color: #89B74B;
+    padding-bottom: 20px;
+    
+
+}

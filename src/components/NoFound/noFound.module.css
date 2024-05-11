@@ -1,0 +1,40 @@
+.errorContainer {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.errorTitle {
+    font-size: 28px;
+
+}
+
+.error404 {
+    font-size: 72px;
+
+    font: normal normal bold 120px/146px BentonSans;
+    color: black;
+}
+
+.errorDescription {
+    margin-bottom: 10px;
+
+}
+
+.errorButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #89B74B;
+    color: #ffffff;
+    font-weight: 800;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none !important;
+    max-width: 402px;
+    height: 58px;
+    margin: auto;
+}
+
+
+.errorButtonText {}

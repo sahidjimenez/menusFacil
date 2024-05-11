@@ -1,0 +1,51 @@
+
+.containerMobile {
+    display: none;
+}
+
+.button {
+    position: absolute;
+    background-color: red;
+    z-index: 10;
+    background-color: transparent;
+    border: 2px solid black;
+    border-color: white;
+    color: white;
+    border-radius: 16px;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    composes: px-4 from global;
+}
+
+@media only screen and (max-width: 600px) {
+    .containerMobile {
+        position: relative;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        gap: 14px;
+        padding-bottom: 14px;
+
+    }
+
+    .containerMobile>div {
+        width: 100%;
+        height: auto;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .containerMobile>div>img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .containerDesk {
+        display: none;
+    }
+}

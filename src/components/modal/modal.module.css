@@ -1,0 +1,10 @@
+.description{
+    font-size: 12px;
+    composes: sm_text-sm from global;
+    composes: text-left from global;
+
+}
+
+.description:first-letter {
+    text-transform: uppercase;
+}

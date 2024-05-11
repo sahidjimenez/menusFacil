@@ -1,0 +1,103 @@
+.banner {
+  display: flex;
+  height: 400px;
+  max-width: 1024px;
+  margin: auto;
+  /* Ajusta la altura según tus necesidades */
+}
+
+.leftSide {
+  background-color: #4CAF50;
+  /* Color verde */
+  width: 70%;
+  /* El lado izquierdo ocupa el 70% del ancho */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightSide {
+  background-color: #388E3C;
+  /* Color verde un poco más oscuro */
+  width: 30%;
+  /* El lado derecho ocupa el 30% del ancho */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.rightSide img {
+  max-width: 100%;
+  height: auto;
+  /* La imagen no debe exceder el ancho del contenedor */
+  height: auto;
+  position: absolute;
+}
+
+.textContent {
+  color: white;
+  padding: 50px;
+  text-align: left;
+  max-width: 100%;
+}
+
+.title {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.description {
+  margin-bottom: 1em;
+  margin-bottom: 1.5em;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  background-color: #f59622;
+  /* Color de fondo para ambos botones */
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.menu {
+  
+  display: flex;
+  padding-top: 100px;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding-bottom: 100px;
+  max-width: 1024px;
+  margin: auto;
+ 
+}
+.menuItem {
+  flex-basis: 25%;
+  text-align: center;
+}
+.menuItem:nth-child(2) {
+  align-self: flex-end; /* Alinea el elemento al final del contenedor flex */
+  position: relative; /* Posicionamiento relativo para moverlo hacia abajo */
+  top: 40px; /* Mueve el elemento 40px hacia abajo */
+}
+
+.menu-item img {
+  width:50%;
+  height: auto;
+}
+
+.menu-item h3 {
+  margin: 0.5em 0;
+}
+
+.menu-item p {
+  font-size: 0.9em;
+}

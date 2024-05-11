@@ -1,0 +1,11 @@
+
+.tabla{
+    composes: grid from global;
+    grid-template-columns: auto auto 20px;
+    composes: items-center from global;
+    composes: p-6 from global;
+    composes: gap-3 from global;
+    composes: text-centet from global;
+    composes: border-b from global;
+    composes: border-gray-200 from global;
+}

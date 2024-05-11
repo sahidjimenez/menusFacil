@@ -1,0 +1,14 @@
+.root {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+    justify-items: center;
+    padding: 8px;
+    composes: text-green-800 from global;
+}
+
+.root button svg{
+    width: 30px !important;
+
+}

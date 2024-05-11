@@ -1,0 +1,32 @@
+.normal {
+    composes: p-3 from global;
+    composes: text-white from global;
+    font-weight: bold;
+}
+
+.active {
+    composes: normal;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+
+.active::before {
+
+    content: '';
+    display: inline-block;
+    height: 4px;
+    position: absolute;
+    width: 15px;
+    border: 2px solid green;
+    margin-top: 9px;
+    left: 10px;
+    z-index: -1;
+
+}
+.text{
+    composes: text-[12px] from global;
+}
+.drawer div div :nth-child(3){
+    height: 300px;
+}

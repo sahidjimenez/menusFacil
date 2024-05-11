@@ -1,0 +1,22 @@
+.root{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 6px;
+
+    border: 2px solid #FDBD37;
+    
+}
+.root svg{
+    stroke: white;
+    fill: white;
+
+}

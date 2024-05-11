@@ -1,0 +1,35 @@
+.vistaDesk {
+    composes: flex from global;
+    composes: px-5 from global;
+    composes: xl_px-12 from global;
+    composes: py-6 from global;
+    composes: items-center from global;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+.listaDesk {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    composes: px-4 from global;
+    composes: mx-auto from global;
+    composes: font-semibold from global;
+    composes: font-heading from global;
+    margin: auto;
+    justify-content: space-around;
+
+}
+
+.vistaMobile {}
+
+@media only screen and (max-width: 700px) {
+    .listaDesk {
+        display: none;
+        justify-content: space-between;
+    }
+    .vistaDesk{
+        justify-content: space-between;
+    }
+}

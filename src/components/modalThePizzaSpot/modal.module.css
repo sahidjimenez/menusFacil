@@ -1,0 +1,23 @@
+.description {
+    font-size: 12px;
+    composes: sm_text-sm from global;
+    composes: text-left from global;
+
+}
+
+.description:first-letter {
+    text-transform: uppercase;
+}
+
+.fondoTheSpot {
+    color: white;
+    color: black;
+    display: grid;
+    composes: grid-cols-2 from global;
+    composes: p-2 from global;
+    composes: h-100 from global;
+    composes: gap-2 from global;
+    composes: m-auto from global;
+    background: linear-gradient(140deg, #A82014 50%, black 50%);
+    background: linear-gradient(140deg, #FDBD37 50%, black 50%);
+}

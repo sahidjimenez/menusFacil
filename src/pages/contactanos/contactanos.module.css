@@ -1,0 +1,56 @@
+.cliente {
+    border: none;
+    border-bottom: 2px solid #89B74B;
+    font-size: 18px;
+    color: black;
+
+}
+
+.cliente:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border-bottom: 2px solid #89B74B;
+}
+
+
+.mensaje {
+
+   width: 80%;
+   max-width: 600px;
+    border: none;
+    border-bottom: 2px solid #89B74B;
+    font-size: 18px;
+    color: black;
+}
+
+.mensaje:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border-bottom: 2px solid #89B74B;
+}
+
+.boton {
+    font-size: 18px;
+}
+
+.contenedorBoton {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    background-color: #89B74B;
+    padding: 0;
+
+    font-size: 18px;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+}
